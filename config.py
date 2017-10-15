@@ -11,7 +11,7 @@ FILES_TO_CONSIDER = {
 						"AUDIO" : [".mp3"],
 						"DOCUMENTS" : [".pdf",".ods"],
 						"DATASETS" : [".csv"],
-						"COMPRESSED" : [".zip",".gz",".rar",".tgz","bz2"],
+						"COMPRESSED" : [".zip",".gz",".rar",".tgz",".bz2"],
 						"IMAGES" : [".jpg",".png",".JPG"],
 						"JAVA_LIBRARY_FILES" : [".jar"],
 						"PYTHON_PROGRAMS" : [".py"],

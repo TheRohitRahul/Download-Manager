@@ -19,7 +19,7 @@ def make_relevent_folders():
 		if(not os.path.exists(path_to_make)):
 			os.mkdir(path_to_make)
 
-def organize_folders():
+def organize_files():
 	moved_flag = False
 	for file_path in file_list:
 		for ct in category_object:
@@ -40,5 +40,5 @@ for file_name  in all_files:
 	else:
 		file_list.append(file_name)
 		
-if(not organize_folders()):
+if(not organize_files()):
 	print "No known file to move"
